@@ -1,11 +1,11 @@
-package com.nntuanlong.entities;
+package com.nntuanlong.domain.entities;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-import com.nntuanlong.entities.shared.Entities;
+import com.nntuanlong.domain.entities.shared.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

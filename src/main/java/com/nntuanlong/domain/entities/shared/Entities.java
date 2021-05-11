@@ -1,4 +1,4 @@
-package com.nntuanlong.entities.shared;
+package com.nntuanlong.domain.entities.shared;
 
 import java.util.Date;
 

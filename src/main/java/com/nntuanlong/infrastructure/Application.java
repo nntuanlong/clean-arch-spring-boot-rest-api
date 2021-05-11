@@ -1,13 +1,13 @@
-package com.nntuanlong.cleanarchrestapi;
+package com.nntuanlong.infrastructure;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CleanArchRestApiApplication {
+public class Application {
 
   public static void main(String[] args) {
-    SpringApplication.run(CleanArchRestApiApplication.class, args);
+    SpringApplication.run(Application.class, args);
   }
 
 }

@@ -1,6 +1,6 @@
-package com.nntuanlong.entities;
+package com.nntuanlong.domain.entities;
 
-import com.nntuanlong.entities.shared.Entities;
+import com.nntuanlong.domain.entities.shared.Entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
