@@ -26,4 +26,5 @@ public class User extends Entities {
   private String name;
   @Pattern(regexp = "^\\d{10}$")
   private String phone;
+  private UserGroup group;
 }
