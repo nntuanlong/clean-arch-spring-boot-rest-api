@@ -1,4 +1,4 @@
-package com.nntuanlong.domain.ports.input.createUser;
+package com.nntuanlong.domain.ports.input.createuser;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Request {
-  private String email;
-  private String name;
-  private String phone;
-  private long groupId;
+    private String email;
+    private String name;
+    private String phone;
+    private long groupId;
 }

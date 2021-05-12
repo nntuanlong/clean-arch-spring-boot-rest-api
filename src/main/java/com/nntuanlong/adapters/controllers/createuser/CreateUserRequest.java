@@ -1,23 +1,19 @@
-package com.nntuanlong.domain.entities;
+package com.nntuanlong.adapters.controllers.createuser;
 
-import com.nntuanlong.domain.entities.shared.Entities;
+import com.nntuanlong.domain.entities.UserGroup;
 import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.experimental.SuperBuilder;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@SuperBuilder
-@EqualsAndHashCode(callSuper = true)
-public class User extends Entities {
+@Getter
+public class CreateUserRequest {
     @NotBlank
     @Email
     private String email;
