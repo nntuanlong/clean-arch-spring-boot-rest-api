@@ -1,5 +1,6 @@
 package com.nntuanlong.infrastructure;
 
+import com.nntuanlong.adapters.presenters.CreateUserPresenter;
 import com.nntuanlong.domain.ports.input.createuser.InputBoundary;
 import com.nntuanlong.domain.ports.output.createUser.OutputBoundary;
 import com.nntuanlong.domain.usecases.CreateUserInteractor;
@@ -13,7 +14,8 @@ public class ApplicationConfiguration {
         return new CreateUserInteractor(outputBoundary);
     }
 
+    @Bean
     public OutputBoundary getOutputBoundary() {
-        return new
+        return new CreateUserPresenter();
     }
 }

@@ -27,7 +27,7 @@ public class CreateUserController implements BaseController {
                 .email(createUserRequest.getEmail())
                 .name(createUserRequest.getName())
                 .phone(createUserRequest.getPhone())
-                .groupId(createUserRequest.getGroup().getId())
+                .groupId(createUserRequest.getGroupId())
                 .build());
         return ResponseEntity.ok().body(this.presenter.getViewModel());
     }

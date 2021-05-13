@@ -14,6 +14,12 @@ public class CreateUserPresenter implements OutputBoundary {
 
     @Override
     public void present(Response response) {
-
+        this.viewModel = ViewModel.builder()
+                .id(response.getId())
+                .email(response.getEmail())
+                .name(response.getName())
+                .phone(response.getPhone())
+                .groupId(response.getGroupId())
+                .build();
     }
 }

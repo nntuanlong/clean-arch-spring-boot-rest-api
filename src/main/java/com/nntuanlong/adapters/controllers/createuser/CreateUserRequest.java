@@ -1,6 +1,5 @@
 package com.nntuanlong.adapters.controllers.createuser;
 
-import com.nntuanlong.domain.entities.UserGroup;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,5 +20,5 @@ public class CreateUserRequest {
     private String name;
     @Pattern(regexp = "^\\d{10}$")
     private String phone;
-    private UserGroup group;
+    private long groupId;
 }
